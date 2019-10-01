@@ -1,0 +1,142 @@
+#header{
+    height: px;
+    background: #040638;
+}
+#header_sub{
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    height: inherit;
+
+    /* font-family: Roboto; */
+    font-style: normal;
+
+}
+#header_sub h1{
+    color: #6AFFE4;
+    font-size: 22px;
+
+    margin: auto 0;
+    margin-left: 20px;
+}
+#header_sub h2{
+    color: #CFD0E0;
+    font-size: 16px;
+    padding: 7.1px;
+
+    margin: auto 0;
+    margin-left: 20px;
+    
+}
+#header_sub_link{
+    margin: auto 0;
+    margin-left: 1%;
+}
+
+#header_sub_link a{
+    color: #A9ADFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#header_sub_link a:hover{
+    border-bottom: 2px solid orange;
+}
+
+#header_sub_link a.icon{
+    display: none;
+}
+
+#header_sub section{
+    background: #23277D;
+    margin: auto 0;
+}
+
+.box{
+    margin: auto 0;
+    display: flex;
+    margin-left: 2%;
+    background: #23277D;
+    border-radius: 20px;
+}
+
+.search_box span.icon{
+    margin-left: 10px;
+}
+
+#search{
+    border: 0px;
+    background: inherit;
+    height: 40px;
+}
+
+#search::placeholder{
+    color: #6A6ECE;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+
+#language_navigation{
+    
+}
+
+.language_box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#language{
+    width: 29px;
+    border-radius: 9px;
+    background: #A9ADFF;
+    text-align: center;
+}
+
+#language p{
+    margin: 0;
+    /*font-family: Roboto Condensed;*/
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#login_container{
+    margin: auto 0;
+    float: right;
+}
+
+#login p{
+    color: #A9ADFF;
+}
+
+#header nav{
+    color: white;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1080px){
+    /*#header_sub_link a:not(:first-child){ Вывести все элементы кроме первого
+        display: none;
+    }*/
+    #header_sub_link a{
+        display: none;
+    }
+    #header_sub_link a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: white;
+        margin: auto 0;
+    }
+}

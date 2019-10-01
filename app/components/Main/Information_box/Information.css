@@ -1,0 +1,10 @@
+.container_information {
+    color: black;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+

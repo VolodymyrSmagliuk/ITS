@@ -1,0 +1,18 @@
+.icon_image{   
+    width: inherit;
+    position: absolute;
+    margin: auto auto;
+    color: grey;
+    font-size: 160px;
+    font-weight: bold;
+    
+}
+
+.title{
+    width: auto;
+    position: relative;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+
